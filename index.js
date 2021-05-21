@@ -7,32 +7,56 @@ inquirer
     {   
         type: "input",
         name: "title",
-        message: "What is the title of your project?"
+        message: "What is the title of your project?",
+        validate: (answer) =>{
+            if(answer === ''){return 'enter a suitable title'}
+            return true
+        }
     },
     {   
         type: "input",
         name: "description",
-        message: "Write a short description about the project"
+        message: "Write a short description about the project",
+        validate: (answer) =>{
+            if(answer === ''){return 'enter a suitable description'}
+            return true
+        }
     },
     {   
         type: "input",
         name: "overview",
-        message: "What is the overview of your project?"
+        message: "What is the overview of your project?",
+        validate: (answer) =>{
+            if(answer === ''){return 'enter a suitable overview'}
+            return true
+        }
     },
     {   
         type: "input",
         name: "usage",
-        message: "What are the requirements"
+        message: "What are the requirements",
+        validate: (answer) =>{
+            if(answer === ''){return 'enter valid requirements'}
+            return true
+        }
     },
     {   
         type: "input",
         name: "authors",
-        message: "Who are the authors of the project"
+        message: "Who are the authors of the project",
+        validate: (answer) =>{
+            if(answer === ''){return 'enter a valid name'}
+            return true
+        }
     },
     {   
         type: "input",
         name: "contributors",
-        message: "Who are the contributors of the project"
+        message: "Who are the contributors of the project",
+        validate: (answer) =>{
+            if(answer === ''){return 'enter a valid name'}
+            return true
+        }
     },
    
    
