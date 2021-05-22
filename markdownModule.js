@@ -31,9 +31,9 @@ ${data.usage}
 
 ---
 ## Authors
-'''console
+#region 
 ${data.authors}
-'''
+#endregion
 
 ## Contributors
 ${data.contributors}
