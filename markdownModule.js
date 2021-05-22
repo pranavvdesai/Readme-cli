@@ -1,5 +1,14 @@
 
 function markdownModule(data){
+  let screenshots = '';
+	if (data.imageURL) {
+		for (let i = 0; i < data.imageURL.split(',').length; i++) {
+			screenshots += `<kbd>![screenshot-demo${i + 1}](${data.imageURL.split(',')[i].trim()})</kbd>`;
+		}
+	}
+
+
+
     return `     
 
 ![ACM-HEADER](https://user-images.githubusercontent.com/14032427/92643737-e6252e00-f2ff-11ea-8a51-1f1b69caba9f.png)
@@ -23,11 +32,16 @@ ${data.description}
 ## Overview
 ${data.overview}
 
+
+## Screenshots
+${screenshots}
+
 ---
 
 ## Usage
+\`\`\`
 ${data.usage}
-
+\`\`\`
 
 ---
 ## Authors

@@ -31,6 +31,28 @@ inquirer
             return true
         }
     },
+    {
+        type: "confirm",
+        name: "screenshots",
+        message : "would you like to add screenshots",
+        default : false,
+    },
+    {
+        type: 'input',
+		name: 'imageURL',
+		message: 'Enter the image paths or urls of screenshots or demo. (* Use comma "," to separate each path or url)',
+		when: function(answers) {
+			return answers.screenshots !== false;
+		},
+		validate: function(imageURL) {
+			if (imageURL) {
+				return true;
+			}
+
+			return 'Provide the image paths or urls of screenshots or demo. ';
+
+        }
+    },
     {   
         type: "input",
         name: "usage",
