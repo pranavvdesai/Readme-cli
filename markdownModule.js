@@ -31,7 +31,9 @@ ${data.usage}
 
 ---
 ## Authors
+'''console
 ${data.authors}
+'''
 
 ## Contributors
 ${data.contributors}
