@@ -31,9 +31,11 @@ ${data.usage}
 
 ---
 ## Authors
-#region 
+
 ${data.authors}
-#endregion
+
+
+
 
 ## Contributors
 ${data.contributors}
