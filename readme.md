@@ -3,11 +3,11 @@
 ![ACM-HEADER](https://user-images.githubusercontent.com/14032427/92643737-e6252e00-f2ff-11ea-8a51-1f1b69caba9f.png)
 
 <h1 align="center"> 
-title goes here 
+rwandom 
 </h1>
 
 <p align="center"> 
-description goes here
+fnebfkjewbfj wefjewbfwebfkewjfbew
 </p>
 
 <p>
@@ -19,17 +19,18 @@ description goes here
 ---
 
 ## Overview
-overview goes here
+fejbwekfbwe f ewfbewfbwejkfbwenf
 
 ---
 
 ## Usage
 npm i inquirer
 
+
 ---
 ## Authors
-author here
+{ hi ,hi }
 
 ## Contributors
-contributor here
+edkje
    
