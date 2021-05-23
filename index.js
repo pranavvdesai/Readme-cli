@@ -40,7 +40,7 @@ inquirer
     {
         type: 'input',
 		name: 'imageURL',
-		message: 'Enter the image paths or urls of screenshots or demo. (* Use comma "," to separate each path or url)',
+		message: 'Enter the image paths or urls of screenshots or demo.',
 		when: function(answers) {
 			return answers.screenshots !== false;
 		},
