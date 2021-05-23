@@ -40,7 +40,7 @@ inquirer
     {
         type: 'input',
 		name: 'imageURL',
-		message: 'Enter the image paths or urls of screenshots or demo.',
+		message: 'Enter the image paths or urls of screenshots.',
 		when: function(answers) {
 			return answers.screenshots !== false;
 		},
@@ -49,7 +49,7 @@ inquirer
 				return true;
 			}
 
-			return 'Provide the image paths or urls of screenshots or demo. ';
+			return 'Provide the image paths or urls of screenshots. ';
 
         }
     },
