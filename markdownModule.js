@@ -5,7 +5,9 @@ function markdownModule(data){
 		// for (let i = 0; i < data.imageURL.split(',').length; i++) {
 		// 	 screenshots += `<kbd>![screenshot-${i + 1}](${data.imageURL.split(',')[i].trim()})</kbd>`;
 		// }
-    screenshots += `<img src = "${data.imageURL}" width=100% >\n`;
+    for(let i=0;i< data.imageURL.split(',').length; i++){
+      screenshots += `<img src = "${data.imageURL[i]}" width=100% >\n`;
+    }
 
 	}
 
