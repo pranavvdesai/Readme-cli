@@ -26,10 +26,18 @@ inquirer
         type: "input",
         name: "overview",
         message: "What is the overview of your project?",
+        default: "when, where and how"
         validate: (answer) =>{
             if(answer === ''){return 'enter a suitable overview'}
             return true
         }
+    },
+    {
+        type: 'list',
+        name: 'License',
+        message: 'Please choose a License.',
+        default: 'MIT',
+        choices: ['MIT','GNU 2.0', 'Apache 2.0','GNU 3.0','None'],        
     },
     {
         type: "confirm",
@@ -40,7 +48,8 @@ inquirer
     {
         type: 'input',
 		name: 'imageURL',
-		message: 'Enter the image paths or urls of screenshots.',
+		message: 'Provide file name of screenshot',
+        default: 'screenshot.jpg',
 		when: function(answers) {
 			return answers.screenshots !== false;
 		},
