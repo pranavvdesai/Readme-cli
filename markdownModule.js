@@ -11,14 +11,23 @@ const none = '![AUR license](https://img.shields.io/static/v1?label=License&mess
 function markdownModule(data){
   // let screenshots = '';
 	// if (data.imageURL) {
-		// for (let i = 0; i < data.imageURL.split(',').length; i++) {
-		// 	 screenshots += `<kbd>![screenshot-${i + 1}](${data.imageURL.split(',')[i].trim()})</kbd>`;
-		// }
-    // for(let i=0;i< data.imageURL.split(',').length; i++){
-    //   screenshots += `<img src = "${data.imageURL.split(',')[i].trim()}" width=100% >\n`;``
-    // }
+	// 	for (let i = 0; i < data.imageURL.split(',').length; i++) {
+	// 		 screenshots += `<kbd>![screenshot-${i + 1}](${data.imageURL.split(',')[i].trim()})</kbd>`;
+	// 	}
+  //   for(let i=0;i< data.imageURL.split(',').length; i++){
+  //     screenshots += `<img src = "${data.imageURL.split(',')[i].trim()}" width=100% >\n`;
+  //   }
 
 	// }
+
+  let usage = '';
+  if(data.usage)
+  {
+    for(let i=0;i<data.usage.split(',').length;i++)
+    {
+      usage += `${data.usage.split(',')[i].trim()}\n`
+    }
+  }
 
   if(data.License === 'MIT'){
     licenseLogo = mit
@@ -69,7 +78,7 @@ ${data.overview}
 
 ## Usage
 \`\`\`
-${data.usage}
+${usage}
 \`\`\`
 
 ---

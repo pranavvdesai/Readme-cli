@@ -26,7 +26,7 @@ inquirer
         type: "input",
         name: "overview",
         message: "What is the overview of your project?",
-        default: "when, where and how"
+        default: "when, where and how",
         validate: (answer) =>{
             if(answer === ''){return 'enter a suitable overview'}
             return true
