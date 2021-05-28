@@ -3,11 +3,11 @@
 ![ACM-HEADER](https://user-images.githubusercontent.com/14032427/92643737-e6252e00-f2ff-11ea-8a51-1f1b69caba9f.png)
 
 <h1 align="center"> 
-check 
+fejn 
 </h1>
 
 <p align="center"> 
-check
+ef
 </p>
 
 <p>
@@ -22,29 +22,31 @@ check
 ---
 
 ## Overview
-kwd w kfe
+when, where and how
 
 
 ## Screenshots
-![Screenshot](assets/screenshot.jpg)
+![Screenshot](assets/img1.jpg)
 
 
 ---
 
 ## Usage
 ```
-ef
+npm i init
+npm inquirer
+nodeom install
 
 ```
 
 ---
 ## Authors
 
-ef
+jbfee
 
 
 
 
 ## Contributors
-ef
+efbkef
    
