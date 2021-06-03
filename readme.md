@@ -3,11 +3,11 @@
 ![ACM-HEADER](https://user-images.githubusercontent.com/14032427/92643737-e6252e00-f2ff-11ea-8a51-1f1b69caba9f.png)
 
 <h1 align="center"> 
-dvdvd 
+eome 
 </h1>
 
 <p align="center"> 
-g\
+eked
 </p>
 
 <p>
@@ -17,12 +17,12 @@ g\
 </p>
 
 
-![AUR license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)
+![AUR license](https://img.shields.io/static/v1?label=License&message=GNU-3.0&color=blue)
 
 ---
 
 ## Overview
-rg
+edde
 
 
 ## Screenshots
@@ -33,18 +33,18 @@ rg
 
 ## Usage
 ```
-rrg
+cce
 
 ```
 
 ---
 ## Authors
 
-rg
+e
 
 
 
 
 ## Contributors
-rg
+f
    
