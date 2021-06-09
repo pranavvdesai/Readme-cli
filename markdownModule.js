@@ -52,10 +52,6 @@ function markdownModule(data){
 ${data.title} 
 </h1>
 
-<p align="center"> 
-${data.description}
-</p>
-
 <p>
   <a href="https://acmvit.in/" target="_blank">
     <img alt="made-by-acm" src="https://img.shields.io/badge/MADE%20BY-ACM%20VIT-blue?style=for-the-badge" />
@@ -63,7 +59,10 @@ ${data.description}
 </p>
 
 
-${licenseLogo}
+
+<p align="center"> 
+${data.description}
+</p>
 
 ---
 
@@ -86,11 +85,12 @@ ${usage}
 
 ${data.authors}
 
-
-
-
 ## Contributors
 ${data.contributors}
+
+
+${licenseLogo}
+
    `;
 }
 

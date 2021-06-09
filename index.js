@@ -14,19 +14,20 @@ inquirer
         }
     },
     {   
-        type: "input",
+        type: "editor",
         name: "description",
-        message: "Write a short description about the project",
+        message: "Provide a short description of this project.",
+        default: "/* Click on save and exit the editor. (markdown supported)\n Make sure to erase this comment before you save */",
         validate: (answer) =>{
             if(answer === ''){return 'enter a suitable description'}
             return true
         }
     },
     {   
-        type: "input",
+        type: "editor",
         name: "overview",
         message: "What is the overview of your project?",
-        default: "when, where and how",
+        default: "/* Click on save and exit the editor. (markdown supported)\n Make sure to erase this comment before you save */",
         validate: (answer) =>{
             if(answer === ''){return 'enter a suitable overview'}
             return true
@@ -58,7 +59,7 @@ inquirer
 				return true;
 			}
 
-			return 'Provide the image paths or urls of screenshots. ';
+			return 'Provide the file name of the screenshot. ';
 
         }
     },
@@ -66,6 +67,7 @@ inquirer
         type: "input",
         name: "usage",
         message: "What are the requirements",
+        default: "use commas to seperate",
         validate: (answer) =>{
             if(answer === ''){return 'enter valid requirements'}
             return true

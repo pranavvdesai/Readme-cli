@@ -1,14 +1,10 @@
      
 
-![ACM-HEADER](https://user-images.githubusercontent.com/14032427/92643737-e6252e00-f2ff-11ea-8a51-1f1b69caba9f.png)
+![HEADER](https://user-images.githubusercontent.com/14032427/92643737-e6252e00-f2ff-11ea-8a51-1f1b69caba9f.png)
 
 <h1 align="center"> 
-eome 
+Readme CLI 
 </h1>
-
-<p align="center"> 
-eked
-</p>
 
 <p>
   <a href="https://acmvit.in/" target="_blank">
@@ -16,35 +12,51 @@ eked
   </a>
 </p>
 
+<p align="center"> 
+<p align="center">
+		<a href="https://npmcharts.com/compare/@appnest/readme?minimal=true"><img alt="Downloads per month" src="https://img.shields.io/npm/dm/@appnest/readme.svg" height="20"/></a>
+<a href="https://www.npmjs.com/package/@appnest/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@appnest/readme.svg" height="20"/></a>
+<a href="https://david-dm.org/andreasbm/readme"><img alt="Dependencies" src="https://img.shields.io/david/andreasbm/readme.svg" height="20"/></a>
+</p>
 
-![AUR license](https://img.shields.io/static/v1?label=License&message=GNU-3.0&color=blue)
+This is the place where you add your description
+
+</p>
 
 ---
 
 ## Overview
-edde
+Place where you can add your oerview
+1. When
+2. Where
+3. How
 
 
 ## Screenshots
-![Screenshot](assets/undefined)
+![Screenshot](assets/img1.jpg)
 
 
 ---
 
 ## Usage
 ```
-cce
+npm init
+npm i inquirer
 
 ```
 
 ---
 ## Authors
 
-e
+pranav
 
 
 
 
 ## Contributors
-f
+none
+
+
+![AUR license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)
+
    
