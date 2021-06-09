@@ -1,22 +1,21 @@
      
 
-![HEADER](https://user-images.githubusercontent.com/14032427/92643737-e6252e00-f2ff-11ea-8a51-1f1b69caba9f.png)
+![HEADER](https://files.readme.io/d14112d-Cloudsmith-Integrations-Banner-GitHub.png)
 
 <h1 align="center"> 
 Readme CLI 
 </h1>
 
 <p>
-  <a href="https://acmvit.in/" target="_blank">
-    <img alt="made-by-acm" src="https://img.shields.io/badge/MADE%20BY-ACM%20VIT-blue?style=for-the-badge" />
+  <a href="" target="_blank">
+    <img alt="made-by-acm" src="https://img.shields.io/badge/MADE%20BY-Hello%20World-blue?style=for-the-badge" />
   </a>
 </p>
 
 <p align="center"> 
 <p align="center">
-		<a href="https://npmcharts.com/compare/@appnest/readme?minimal=true"><img alt="Downloads per month" src="https://img.shields.io/npm/dm/@appnest/readme.svg" height="20"/></a>
-<a href="https://www.npmjs.com/package/@appnest/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@appnest/readme.svg" height="20"/></a>
-<a href="https://david-dm.org/andreasbm/readme"><img alt="Dependencies" src="https://img.shields.io/david/andreasbm/readme.svg" height="20"/></a>
+		<a href=""><img alt="Downloads per month" src="https://img.shields.io/apm/dm/readme" height="20"/></a>
+<a href=""><img alt="NPM Version" src="https://img.shields.io/npm/v/readme" height="20"/></a>
 </p>
 
 This is the place where you add your description
