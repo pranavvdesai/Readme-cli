@@ -4,22 +4,7 @@ const gnu2 = '![AUR license](https://img.shields.io/static/v1?label=License&mess
 const gnu3 = '![AUR license](https://img.shields.io/static/v1?label=License&message=GNU-3.0&color=blue)';
 const none = '![AUR license](https://img.shields.io/static/v1?label=License&message=none&color=red)';
 
-
-
-
-
 function markdownModule(data){
-  // let screenshots = '';
-	// if (data.imageURL) {
-	// 	for (let i = 0; i < data.imageURL.split(',').length; i++) {
-	// 		 screenshots += `<kbd>![screenshot-${i + 1}](${data.imageURL.split(',')[i].trim()})</kbd>`;
-	// 	}
-  //   for(let i=0;i< data.imageURL.split(',').length; i++){
-  //     screenshots += `<img src = "${data.imageURL.split(',')[i].trim()}" width=100% >\n`;
-  //   }
-
-	// }
-
   let usage = '';
   if(data.usage)
   {
@@ -40,10 +25,6 @@ function markdownModule(data){
 }else{
     licenseLogo = none
 }
-  
-  
-  
-
     return `     
 
 ![ACM-HEADER](https://user-images.githubusercontent.com/14032427/92643737-e6252e00-f2ff-11ea-8a51-1f1b69caba9f.png)
@@ -57,8 +38,6 @@ ${data.title}
     <img alt="made-by-acm" src="https://img.shields.io/badge/MADE%20BY-ACM%20VIT-blue?style=for-the-badge" />
   </a>
 </p>
-
-
 
 <p align="center"> 
 ${data.description}
