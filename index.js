@@ -48,8 +48,8 @@ inquirer
     },
     {
         type: 'input',
-		name: 'imageURL',
-		message: 'Provide file name of screenshot',
+	name: 'imageURL',
+	message: 'Provide file name of screenshot',
         default: 'screenshot.jpg',
 		when: function(answers) {
 			return answers.screenshots !== false;
@@ -58,10 +58,8 @@ inquirer
 			if (imageURL) {
 				return true;
 			}
-
 			return 'Provide the file name of the screenshot. ';
-
-        }
+        	}
     },
     {   
         type: "input",
@@ -91,10 +89,7 @@ inquirer
             return true
         }
     },
-   
-   
-   
-    
+  
   ])
   .then(answers => {
 
@@ -104,8 +99,6 @@ inquirer
     console.log(answers)
 
 })
-
-
 
 generate = (data)=>{
 fs.writeFile("./readme.md",data,(err)=>{
