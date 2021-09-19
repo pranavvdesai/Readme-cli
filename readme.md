@@ -1,59 +1,46 @@
      
 
-![HEADER](https://files.readme.io/d14112d-Cloudsmith-Integrations-Banner-GitHub.png)
+![ACM-HEADER](https://user-images.githubusercontent.com/14032427/92643737-e6252e00-f2ff-11ea-8a51-1f1b69caba9f.png)
 
 <h1 align="center"> 
-Readme CLI 
+readme cli 
 </h1>
 
 <p>
-  <a href="" target="_blank">
-    <img alt="made-by-acm" src="https://img.shields.io/badge/MADE%20BY-Hello%20World-blue?style=for-the-badge" />
+  <a href="https://acmvit.in/" target="_blank">
+    <img alt="made-by-acm" src="https://img.shields.io/badge/MADE%20BY-ACM%20VIT-blue?style=for-the-badge" />
   </a>
 </p>
 
+
+
 <p align="center"> 
-<p align="center">
-		<a href=""><img alt="Downloads per month" src="https://img.shields.io/apm/dm/readme" height="20"/></a>
-<a href=""><img alt="NPM Version" src="https://img.shields.io/npm/v/readme" height="20"/></a>
-</p>
-
-This is the place where you add your description
-
+create or update readme files using cli 
 </p>
 
 ---
 
 ## Overview
-Place where you can add your oerview
-1. When
-2. Where
-3. How
+/* Click on save and exit the editor. (markdown supported)
+ Make sure to erase this comment before you save */
 
-
-## Screenshots
-![Screenshot](assets/img1.jpg)
 
 
 ---
 
 ## Usage
 ```
-npm init
-npm i inquirer
+npm i
 
 ```
 
 ---
 ## Authors
 
-pranav
-
-
-
+@pranavvdesai
 
 ## Contributors
-none
+.
 
 
 ![AUR license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)
