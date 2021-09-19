@@ -31,7 +31,7 @@ function markdownModule(data) {
 
   return `     
 
-![ACM-HEADER](https://estebanromero.com/wp-content/uploads/2018/02/readme1.png)
+![ACM-HEADER](https://readme.com/static/brandkit/readme-blue.png)
 
 <h1 align="center"> 
 ${data.title} 
