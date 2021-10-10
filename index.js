@@ -16,7 +16,7 @@ inquirer
       message: "What is the title of your project?",
       validate: (answer) => {
         if (answer === "") {
-          return "enter a suitable title";
+          return "Please enter a title";
         }
         return true;
       },
@@ -24,10 +24,10 @@ inquirer
     {
       type: "input",
       name: "description",
-      message: "Write a short description about the project",
+      message: "Give a short description for the project",
       validate: (answer) => {
         if (answer === "") {
-          return "enter a suitable description";
+          return "Please enter a description";
         }
         return true;
       },
@@ -40,7 +40,7 @@ inquirer
         "/* Click on save and exit the editor. (markdown supported)\n Make sure to erase this comment before you save */",
       validate: (answer) => {
         if (answer === "") {
-          return "enter a suitable overview";
+          return "Please enter an overview";
         }
         return true;
       },
@@ -48,20 +48,20 @@ inquirer
     {
       type: "list",
       name: "License",
-      message: "Please choose a License.",
+      message: "Please choose a License",
       default: "MIT",
       choices: ["MIT", "GNU 2.0", "Apache 2.0", "GNU 3.0", "None"],
     },
     {
       type: "confirm",
       name: "screenshots",
-      message: "would you like to add screenshots",
+      message: "Would you like to add screenshots",
       default: false,
     },
     {
       type: "input",
       name: "imageURL",
-      message: "Enter the image path or url of screenshot.",
+      message: "Enter the image path or url of screenshot",
       when: function (answers) {
         return answers.screenshots !== false;
       },
@@ -70,16 +70,16 @@ inquirer
           return true;
         }
 
-        return "Provide the image paths or urls of screenshots. ";
+        return "Please provide valid url or path";
       },
     },
     {
       type: "input",
       name: "usage",
-      message: "What are the requirements",
+      message: "What are the requirements of the project? (Use commas to seperate)",
       validate: (answer) => {
         if (answer === "") {
-          return "enter valid requirements";
+          return "Please enter valid requirements";
         }
         return true;
       },
@@ -87,10 +87,10 @@ inquirer
     {
       type: "input",
       name: "authors",
-      message: "Who are the authors of the project",
+      message: "Who are the authors of the project?",
       validate: (answer) => {
         if (answer === "") {
-          return "enter a valid name";
+          return "Please enter a valid name";
         }
         return true;
       },
@@ -98,25 +98,26 @@ inquirer
     {
       type: "input",
       name: "contributors",
-      message: "Who are the contributors of the project",
+      message: "Who are the contributors of the project?",
       validate: (answer) => {
         if (answer === "") {
-          return "enter a valid name";
+          return "Please enter a valid name";
         }
         return true;
       },
     },
   ])
   .then((answers) => {
-    var readme = markdownModule(answers);
+    const readme = markdownModule(answers);
     generate(readme);
   });
 
+/* generates a new (or) updates the existing readme files */
 generate = (data) => {
   fs.writeFile("./readme.md", data, (err) => {
     if (err) {
-      console.log("error", err);
+      console.error("error", err.message);
     }
-    console.log("created!");
+    console.log("Markdown creation successful!");
   });
 };

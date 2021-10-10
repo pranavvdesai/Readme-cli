@@ -1,6 +1,6 @@
      
 
-![ACM-HEADER](https://readme.com/static/brandkit/readme-blue.png)
+![HEADER](https://readme.com/static/brandkit/readme-blue.png)
 
 <h1 align="center"> 
 readme cli 
@@ -22,6 +22,8 @@ create or update readme files through cli
 
 ## Overview
 Overview
+- Test1
+- Test2
 
 ## Screenshots 
 
@@ -32,7 +34,7 @@ Overview
 
 ## Usage
 ```
-npm i
+npm i readme-demo-cli
 
 ```
 

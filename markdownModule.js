@@ -1,13 +1,13 @@
 const mit =
-  "![AUR license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)";
+"[![AUR license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)](./LICENSE)";
 const apache =
-  "![AUR license](https://img.shields.io/static/v1?label=License&message=Apache&color=blue)";
+"[![AUR license](https://img.shields.io/static/v1?label=License&message=Apache&color=blue)](./LICENSE)";
 const gnu2 =
-  "![AUR license](https://img.shields.io/static/v1?label=License&message=GNU-2.0&color=blue)";
+"[![AUR license](https://img.shields.io/static/v1?label=License&message=GNU-2.0&color=blue)](./LICENSE)";
 const gnu3 =
-  "![AUR license](https://img.shields.io/static/v1?label=License&message=GNU-3.0&color=blue)";
+"[![AUR license](https://img.shields.io/static/v1?label=License&message=GNU-3.0&color=blue)](./LICENSE)";
 const none =
-  "![AUR license](https://img.shields.io/static/v1?label=License&message=none&color=red)";
+"[![AUR license](https://img.shields.io/static/v1?label=License&message=none&color=red)](./LICENSE)";
 
 function markdownModule(data) {
   let usage = "";
@@ -31,7 +31,7 @@ function markdownModule(data) {
 
   return `     
 
-![ACM-HEADER](https://readme.com/static/brandkit/readme-blue.png)
+![HEADER](https://readme.com/static/brandkit/readme-blue.png)
 
 <h1 align="center"> 
 ${data.title} 
