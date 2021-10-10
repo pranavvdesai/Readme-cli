@@ -34,7 +34,7 @@ Overview
 
 ## Usage
 ```
-npm i readme-demo-cli
+npx readme-demo-cli
 
 ```
 
